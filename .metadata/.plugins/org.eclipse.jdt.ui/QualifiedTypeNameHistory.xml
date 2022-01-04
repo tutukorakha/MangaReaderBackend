@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="javax.persistence.Column"/>
-    <fullyQualifiedTypeName name="javax.persistence.NoResultException"/>
-    <fullyQualifiedTypeName name="com.app.AppConstant"/>
-    <fullyQualifiedTypeName name="com.app.model.Response"/>
-    <fullyQualifiedTypeName name="java.util.Map"/>
-    <fullyQualifiedTypeName name="com.app.entity.bean.User"/>
-</qualifiedTypeNameHistroy>

@@ -8,7 +8,7 @@ import com.app.entity.UserEntity;
 
 @SuppressWarnings("serial")
 @Entity
-@Table(name = "user", uniqueConstraints = { @UniqueConstraint(columnNames = { "code", "is_deleted" }) })
+@Table(name = "user", uniqueConstraints = { @UniqueConstraint(columnNames = { "code", "is_deleted", "email", "username" }) })
 public class User extends UserEntity {
 
 }

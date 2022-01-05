@@ -15,7 +15,6 @@ import lombok.NoArgsConstructor;
 @Setter
 @MappedSuperclass
 @NoArgsConstructor
-@SuppressWarnings("serial")
 public class MangaEntity extends BaseEntity implements Serializable {
 	
 	@Column(name="name")

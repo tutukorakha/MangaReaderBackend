@@ -15,7 +15,6 @@ import lombok.NoArgsConstructor;
 @Setter
 @MappedSuperclass
 @NoArgsConstructor
-@SuppressWarnings("serial")
 public class UserEntity extends BaseEntity implements Serializable{
 	
 	@Column(name = "name", length = 128, nullable = false)
@@ -26,4 +25,10 @@ public class UserEntity extends BaseEntity implements Serializable{
 	
 	@Column(name = "role", length = 128, nullable = false)
 	private String role;
+
+	@Column(name = "email", nullable = false)
+	private String email;
+
+	@Column(name = "password", nullable = false)
+	private String password;
 }

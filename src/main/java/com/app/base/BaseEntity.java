@@ -36,7 +36,7 @@ public abstract class BaseEntity implements Serializable {
 	public static final int ENTITY_FLAG_IS_DELETED = 1;
 
 	@Id
-	@GeneratedValue(strategy = GenerationType.AUTO)
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	@Column(name = "id", updatable = false, nullable = false)
 	private Integer id;
 	

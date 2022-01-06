@@ -47,6 +47,7 @@ public class UserController {
 		inputUser.setAge(Integer.parseInt(data.get("age").toString()));
 		inputUser.setRole((String) data.get("role"));
 		inputUser.setEmail((String) data.get("email"));
+		inputUser.setUsername((String) data.get("username"));
 		inputUser.setPassword((String) data.get("password"));
 		User checkUser = userDAO.getByCode(inputUser.getCode());
 		try{
@@ -72,6 +73,7 @@ public class UserController {
 		inputUser.setAge(Integer.parseInt(data.get("age").toString()));
 		inputUser.setRole((String) data.get("role"));
 		inputUser.setEmail((String) data.get("email"));
+		inputUser.setUsername((String) data.get("username"));
 		inputUser.setPassword((String) data.get("password"));
 		User checkUser = userDAO.getByCode(inputUser.getCode());
 		try{
@@ -97,6 +99,7 @@ public class UserController {
 		inputUser.setAge(Integer.parseInt(data.get("age").toString()));
 		inputUser.setRole((String) data.get("role"));
 		inputUser.setEmail((String) data.get("email"));
+		inputUser.setUsername((String) data.get("username"));
 		inputUser.setPassword((String) data.get("password"));
 		try{
 			userDAO.delete(inputUser);
